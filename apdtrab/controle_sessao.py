@@ -17,7 +17,7 @@ def listar_sessao():
 
 def buscar_sessao(cod_sessao):
     for s in range (0,len(lista_sessao)):
-        if s[0] == cod_sessao:
+        if s == cod_sessao:
             return s
     return None
 
@@ -29,4 +29,4 @@ def remover_todas_sessoes ():
 def ingresso():
     return lista_sessao
 
-def iniciar_lista_ingressos():
+#def iniciar_lista_ingressos():
