@@ -1,11 +1,11 @@
 import controlador_ingresso
 ci = controlador_ingresso
-def imprimir_ingresso (ingresso):
-    nome = 'nome do cinema'
-    filme = 'nome do filme'
-    print(nome.upper())
-    print(filme.upper())
-    print("sala","      ","horario")
+# def imprimir_ingresso (ingresso):
+#     nome = 'nome do cinema'
+#     filme = 'nome do filme'
+#     print(nome.upper())
+#     print(filme.upper())
+#     print("sala","      ","horario")
 
 def menu_gerar():
     cod_ingresso = str(input("Codigo do ingresso "))
@@ -15,7 +15,8 @@ def menu_gerar():
 def menu_lista():
     ingressos = ci.listar_ingresso()
     for i in ingressos:
-        imprimir_ingresso(i)
+        print(i)
+        # imprimir_ingresso(i)
 
 def menu_busca():
     print("Buscar por codigo do ingresso")
