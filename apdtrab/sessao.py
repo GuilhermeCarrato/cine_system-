@@ -7,9 +7,12 @@ def imprimir_sessao(lista_sessao):
     print("")
 
 def criar_sessao ():
-    cod_sessao = str(input("Digite o cod da sessao"))
-    cs.criar_sessao(cod_sessao)
-
+    cod_sessao = int(input("Digite o cod da sessao"))
+    s = cs.criar_sessao(cod_sessao)
+    if s == True:
+        print("Sessão foi criada")
+    else:
+        print("erro!!!")
 def deletar_sessao():
     cod = str(input("Digito o codigo da sessão a ser deletada"))
     result= cs.remover_sessao(cod)
@@ -19,9 +22,10 @@ def deletar_sessao():
         print("Sessão não encontrada!!")
 
 def listar_sessao():
-    sessoes = cs.lista_sessao()
-    for s in sessoes:
-        imprimir_sessao(s)
+    sessao = cs.listar_sessao()
+    #for s in sessao:
+    print(sessao)
+        #imprimir_sessao(s)
 
 def buscar_sessao():
     print("Buscar por codigo de sessão")
@@ -30,7 +34,8 @@ def buscar_sessao():
     if ( s == None ):
         print("Sessão n encontrada")
     else:
-        imprimir_sessao(s)
+        print(s)
+        #imprimir_sessao(s)
 
 def remover_todas_sessoes():
     cs.remover_todas_sessoes()
