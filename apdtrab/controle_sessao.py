@@ -1,6 +1,6 @@
 #import filme
 #import sala
-sessao_list = []
+sessao_list = [[1,"Alien",1300,12]]
 def criar_sessao (cod_sessao,cod_filme , horario , cod_sala):
     sessao = [cod_sessao, cod_filme , horario , cod_sala]
     sessao_list.append(sessao)
@@ -10,7 +10,7 @@ def criar_sessao (cod_sessao,cod_filme , horario , cod_sala):
         return False
 
 def remover_sessao (cod_sessao):
-    for s in range (0,len(sessao_list)):
+    for s in sessao_list:
         if (s[0] == cod_sessao):
             sessao_list.remove(s)
             return True
@@ -20,9 +20,10 @@ def listar_sessao():
     return sessao_list
 
 def buscar_sessao(cod_sessao):
-    for s in range (0,len(sessao_list)):
-        if s == cod_sessao:
+    for s in sessao_list:
+        if s[0] == cod_sessao:
             return s
+            break
     return None
 
 def remover_todas_sessoes ():
