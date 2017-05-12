@@ -38,7 +38,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="controle_sessao.py" pinned="false" current-in-tab="true">
+          <file leaf-file-name="controle_sessao.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/controle_sessao.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="481">
@@ -50,7 +50,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="teste_sessao.py" pinned="false" current-in-tab="false">
+          <file leaf-file-name="teste_sessao.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/teste_sessao.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="0">
@@ -456,7 +456,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11160714" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -914,22 +914,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sessao.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="63" column="16" lean-forward="false" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="16" />
-          <folding>
-            <element signature="e#165#321#0" expanded="false" />
-            <element signature="e#348#429#0" expanded="false" />
-            <element signature="e#457#667#0" expanded="false" />
-            <element signature="e#694#770#0" expanded="false" />
-            <element signature="e#797#1010#0" expanded="false" />
-            <element signature="e#1045#1071#0" expanded="false" />
-            <element signature="e#1099#1838#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ingresso/ingresso.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -946,14 +930,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/teste_sessao.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controle_sessao.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="481">
@@ -961,6 +937,30 @@
           <folding>
             <element signature="e#716#735#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sessao.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="63" column="16" lean-forward="false" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="16" />
+          <folding>
+            <element signature="e#165#321#0" expanded="false" />
+            <element signature="e#348#429#0" expanded="false" />
+            <element signature="e#457#667#0" expanded="false" />
+            <element signature="e#694#770#0" expanded="false" />
+            <element signature="e#797#1010#0" expanded="false" />
+            <element signature="e#1045#1071#0" expanded="false" />
+            <element signature="e#1099#1838#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/teste_sessao.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
