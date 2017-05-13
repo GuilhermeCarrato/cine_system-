@@ -1,13 +1,9 @@
 #import filme
 #import sala
-sessao_list = [[1,"Alien",1300,12]]
+sessao_list = []
 def criar_sessao (cod_sessao,cod_filme , horario , cod_sala):
     sessao = [cod_sessao, cod_filme , horario , cod_sala]
     sessao_list.append(sessao)
-    if len(sessao_list) > 0:
-        return True
-    else:
-        return False
 
 def remover_sessao (cod_sessao):
     for s in sessao_list:
